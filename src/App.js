@@ -13,6 +13,7 @@ function App() {
 
   useEffect(() => {
     getRecipes();
+    
   }, []);
 
   const getRecipes = async () => {
