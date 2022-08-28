@@ -33,7 +33,11 @@ function App() {
   
   return (
     <div className="App">
-      
+      <Header
+        search={search}
+        onInputChange={onInputChange}
+        onSearchClick={onSearchClick}
+      />
       <div className="container">
         <Recipes recipes={recipes} />
       </div>
