@@ -5,11 +5,11 @@ import Recipes from "./components/Recipes";
 import Axios from "axios";
 
 function App() {
-  const [search, setSerach] = useState("chiken");
+  const [search, setSerach] = useState("pizza");
   const [recipes, setRecipes] = useState([]);
 
-  const APP_ID = "YOUR_APPLICATION_ID";
-  const APP_KEY = "YOUR_APPLICATION_KEY";
+  const APP_ID = "825cd951";
+  const APP_KEY = "2c81f5e1bee1c840308f4ce676c53fa1";
 
   useEffect(() => {
     getRecipes();
